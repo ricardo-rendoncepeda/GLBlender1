@@ -23,6 +23,7 @@
 		AE128A8E17DEA0D600670DEF /* cube.c in Sources */ = {isa = PBXBuildFile; fileRef = AE128A8A17DEA0D600670DEF /* cube.c */; };
 		AE128A8F17DEA0D600670DEF /* cube.obj in Resources */ = {isa = PBXBuildFile; fileRef = AE128A8C17DEA0D600670DEF /* cube.obj */; };
 		AE128A9017DEA0D600670DEF /* cube.png in Resources */ = {isa = PBXBuildFile; fileRef = AE128A8D17DEA0D600670DEF /* cube.png */; };
+		AE1B8EB11846755100631A19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1B8EB01846755100631A19 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		AE128A8B17DEA0D600670DEF /* cube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cube.h; sourceTree = "<group>"; };
 		AE128A8C17DEA0D600670DEF /* cube.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cube.obj; sourceTree = "<group>"; };
 		AE128A8D17DEA0D600670DEF /* cube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cube.png; sourceTree = "<group>"; };
+		AE1B8EB01846755100631A19 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				AE128A8417DE9F2600670DEF /* MainViewController.h */,
 				AE128A8517DE9F2600670DEF /* MainViewController.m */,
 				AE128A8917DEA0D600670DEF /* Resources */,
+				AE1B8EB01846755100631A19 /* Images.xcassets */,
 				AE128A6A17DE9EA900670DEF /* Supporting Files */,
 			);
 			path = GLBlender1;
@@ -186,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE128A6E17DE9EA900670DEF /* InfoPlist.strings in Resources */,
+				AE1B8EB11846755100631A19 /* Images.xcassets in Resources */,
 				AE128A7617DE9EA900670DEF /* Default.png in Resources */,
 				AE128A7817DE9EA900670DEF /* Default@2x.png in Resources */,
 				AE128A7A17DE9EA900670DEF /* Default-568h@2x.png in Resources */,
@@ -282,9 +286,12 @@
 		AE128A7E17DE9EA900670DEF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GLBlender1/GLBlender1-Prefix.pch";
 				INFOPLIST_FILE = "GLBlender1/GLBlender1-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -293,9 +300,12 @@
 		AE128A7F17DE9EA900670DEF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GLBlender1/GLBlender1-Prefix.pch";
 				INFOPLIST_FILE = "GLBlender1/GLBlender1-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -320,6 +330,7 @@
 				AE128A7F17DE9EA900670DEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

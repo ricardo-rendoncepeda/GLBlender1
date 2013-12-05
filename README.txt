@@ -1,13 +1,13 @@
 README
 
-GLBlender1 Version 1.1 (25 November 2013)
+GLBlender1 Version 1.2 (04 December 2013)
 Created by Ricardo Rendon Cepeda
 <http://www.rendoncepeda.com/>
 
 
 ABOUT
 GLBlender1 is the first part of an OpenGL ES & Blender tutorial series, teaching developers how to make an awesome 3D model viewer for iOS that can display models that you create in Blender.
-In part 1 You’ll start by learning about one of the simplest formats that Blender can export models to – the OBJ file format. Then you will create a general command line tool to parse this file format and generate suitable arrays in C source code for OpenGL ES. You’ll use a cube as an example shape
+In part 1 you’ll start by learning about one of the simplest formats that Blender can export models to – the OBJ file format. Then you will create a general command line tool to parse this file format and generate suitable arrays in C source code for OpenGL ES. You’ll use a cube as an example shape
 The full tutorial is available at:
 <http://www.raywenderlich.com/48293/how-to-export-blender-models-to-opengl-es-part-1>
 
@@ -20,6 +20,11 @@ The full project includes:
 
 
 VERSION HISTORY
+
+Version 1.2
+---------------
+- Project upgraded to iOS 7.
+- Added image asset catalogs.
 
 Version 1.1
 ---------------
