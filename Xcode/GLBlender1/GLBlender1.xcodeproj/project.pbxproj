@@ -13,9 +13,6 @@
 		AE128A6E17DE9EA900670DEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE128A6C17DE9EA900670DEF /* InfoPlist.strings */; };
 		AE128A7017DE9EA900670DEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE128A6F17DE9EA900670DEF /* main.m */; };
 		AE128A7417DE9EA900670DEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE128A7317DE9EA900670DEF /* AppDelegate.m */; };
-		AE128A7617DE9EA900670DEF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AE128A7517DE9EA900670DEF /* Default.png */; };
-		AE128A7817DE9EA900670DEF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE128A7717DE9EA900670DEF /* Default@2x.png */; };
-		AE128A7A17DE9EA900670DEF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE128A7917DE9EA900670DEF /* Default-568h@2x.png */; };
 		AE128A8117DE9EE100670DEF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE128A8017DE9EE100670DEF /* OpenGLES.framework */; };
 		AE128A8317DE9EEC00670DEF /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE128A8217DE9EEC00670DEF /* GLKit.framework */; };
 		AE128A8617DE9F2600670DEF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE128A8517DE9F2600670DEF /* MainViewController.m */; };
@@ -190,9 +187,6 @@
 			files = (
 				AE128A6E17DE9EA900670DEF /* InfoPlist.strings in Resources */,
 				AE1B8EB11846755100631A19 /* Images.xcassets in Resources */,
-				AE128A7617DE9EA900670DEF /* Default.png in Resources */,
-				AE128A7817DE9EA900670DEF /* Default@2x.png in Resources */,
-				AE128A7A17DE9EA900670DEF /* Default-568h@2x.png in Resources */,
 				AE128A8817DE9F7900670DEF /* MainStoryboard.storyboard in Resources */,
 				AE128A8F17DEA0D600670DEF /* cube.obj in Resources */,
 				AE128A9017DEA0D600670DEF /* cube.png in Resources */,
